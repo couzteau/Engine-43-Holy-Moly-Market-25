@@ -2,8 +2,6 @@ import { useState, useEffect } from 'react';
 import './ImageGallery.css';
 
 const images = [
-  { id: 1, src: '/images/1-DJI_20251206143252_0169_D-HDR.jpg', alt: 'Photo 1' },
-  { id: 2, src: '/images/2-DJI_20251206143307_0172_D-HDR.jpg', alt: 'Photo 2' },
   { id: 3, src: '/images/3-DJI_20251206143438_0178_D-HDR.jpg', alt: 'Photo 3' },
   { id: 4, src: '/images/4-DJI_20251206143511_0181_D-HDR.jpg', alt: 'Photo 4' },
   { id: 5, src: '/images/5-DJI_20251206143542_0184_D-HDR.jpg', alt: 'Photo 5' },
@@ -22,6 +20,7 @@ const images = [
   { id: 18, src: '/images/18-DJI_20251206165920_0287_D-HDR.jpg', alt: 'Photo 18' },
   { id: 19, src: '/images/19-DJI_20251206170010_0290_D-HDR.jpg', alt: 'Photo 19' },
   { id: 20, src: '/images/20-DJI_20251206170041_0293_D-HDR.jpg', alt: 'Photo 20' },
+  { id: 1, src: '/images/1-DJI_20251206143252_0169_D-HDR.jpg', alt: 'Photo 1' },
 ];
 
 function ImageGallery() {
