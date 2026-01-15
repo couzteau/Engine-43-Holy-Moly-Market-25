@@ -243,3 +243,15 @@
     font-size: 0.9rem;
   }
 }
+
+
+/* Light Mode Adjustments */
+@media (prefers-color-scheme: light) {
+    .gallery-title {
+          color: #1a1a1a;
+    }
+
+  .gallery-subtitle {
+        color: #666;
+  }
+}
