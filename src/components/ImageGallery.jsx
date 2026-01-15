@@ -67,7 +67,7 @@ function ImageGallery() {
   return (
     <div className="gallery-container">
       <header className="gallery-header">
-        <a href="https://shop.engine43.org" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.etsy.com/shop/Engine43ArtStore" target="_blank" rel="noopener noreferrer">
           <img
             src="/images/logos/E43-Mia-Logo-final.png"
             alt="Engine 43 Logo"
