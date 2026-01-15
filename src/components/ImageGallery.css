@@ -5,6 +5,26 @@
   padding: 20px;
 }
 
+.gallery-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.gallery-header a {
+  display: inline-block;
+  transition: opacity 0.2s ease;
+}
+
+.gallery-header a:hover {
+  opacity: 0.8;
+}
+
+.gallery-logo {
+  max-width: 200px;
+  height: auto;
+}
+
 .gallery-title {
   text-align: center;
   font-size: 2.5rem;
@@ -133,6 +153,10 @@
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
+  .gallery-logo {
+    max-width: 150px;
+  }
+
   .gallery-title {
     font-size: 1.8rem;
   }
@@ -169,6 +193,10 @@
 @media (max-width: 480px) {
   .gallery-container {
     padding: 10px;
+  }
+
+  .gallery-logo {
+    max-width: 120px;
   }
 
   .gallery-grid {

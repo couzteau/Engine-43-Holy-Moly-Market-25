@@ -66,6 +66,15 @@ function ImageGallery() {
 
   return (
     <div className="gallery-container">
+      <header className="gallery-header">
+        <a href="https://shop.engine43.org" target="_blank" rel="noopener noreferrer">
+          <img
+            src="/images/logos/E43-Mia-Logo-final.png"
+            alt="Engine 43 Logo"
+            className="gallery-logo"
+          />
+        </a>
+      </header>
       <h1 className="gallery-title">Engine 43 Holy Moly Market 25</h1>
       <p className="gallery-subtitle">Photo Gallery</p>
 
